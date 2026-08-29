@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cómo verificar ovaHogar Distribuidora en Google Search Console, enviar el sitemap e indexar el sitio de muebles al por mayor en Medellín.">
+  <meta name="description" content="Cómo verificar NovaHogar Distribuidora en Google Search Console, enviar el sitemap e indexar el sitio de muebles al por mayor en Medellín.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#161210">
-  <link rel="canonical" href="https://ovahogardistribuidora.z5.web.core.windows.net/search-console.html" data-page="search-console.html">
+  <link rel="canonical" href="https://novahogar-distribuidora.onrender.com/search-console.html" data-page="search-console.html">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <title>Google Search Console | ovaHogar Distribuidora Medellín</title>
+  <title>Google Search Console | NovaHogar Distribuidora Medellín</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -18,10 +18,10 @@
 
   <header class="site-header scrolled">
     <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="ovaHogar Distribuidora — Inicio">
-        <img class="brand-logo-img" data-cfg-src="logo" src="assets/img/logo.svg" alt="ovaHogar Distribuidora" width="64" height="64">
+      <a class="brand" href="index.html" aria-label="NovaHogar Distribuidora — Inicio">
+        <img class="brand-logo-img" data-cfg-src="logo" src="assets/img/logo.svg" alt="NovaHogar Distribuidora" width="64" height="64">
         <span class="brand-text">
-          <span class="brand-name" data-cfg="nombre">ovaHogar Distribuidora</span>
+          <span class="brand-name" data-cfg="nombre">NovaHogar Distribuidora</span>
           <span class="brand-sub" data-cfg="brandSub">Mayorista · sitio web desde 2013</span>
         </span>
       </a>
@@ -41,7 +41,7 @@
     <div class="container">
       <span class="eyebrow" style="color:var(--gold-light)">Visibilidad en Google</span>
       <h1>Google Search Console</h1>
-      <p style="max-width:640px;margin-top:1rem;color:rgba(246,240,230,.82)">Esta plataforma no fabrica visitas: mide las veces que ovaHogar aparece en Google. El sitio ya está preparado para el rastreo. Aquí está el orden exacto para que Search Console empiece a mostrar impresiones.</p>
+      <p style="max-width:640px;margin-top:1rem;color:rgba(246,240,230,.82)">Esta plataforma no fabrica visitas: mide las veces que NovaHogar aparece en Google. El sitio ya está preparado para el rastreo. Aquí está el orden exacto para que Search Console empiece a mostrar impresiones.</p>
     </div>
   </section>
 
@@ -50,36 +50,36 @@
       <span class="eyebrow">Qué puede y qué no puede este sitio</span>
       <h2 class="section-title">Más vistas en Search Console</h2>
       <div class="gold-rule"></div>
-      <p>Search Console cuenta <strong>impresiones</strong> cuando alguien busca en Google y ve un resultado de este dominio. Eso solo ocurre si la propiedad está verificada, el sitemap está enviado y Google ya indexó las páginas publicadas en Azure — no las de localhost.</p>
-      <p>ovaHogar Distribuidora es una casa de <strong>muebles al por mayor en Medellín</strong>, con este sitio web en línea desde 2013 (más de diez años). Publicamos quiénes somos, a qué nos dedicamos, qué ofrecemos, qué brindamos a los clientes y la sede en Carrera 50 # 25-20, Guayabal. Ese contenido es lo que Google puede mostrar.</p>
+      <p>Search Console cuenta <strong>impresiones</strong> cuando alguien busca en Google y ve un resultado de este dominio. Eso solo ocurre si la propiedad está verificada, el sitemap está enviado y Google ya indexó las páginas publicadas en Render — no las de localhost.</p>
+      <p>NovaHogar Distribuidora es una casa de <strong>muebles al por mayor en Medellín</strong>, con este sitio web en línea desde 2013 (más de diez años). Publicamos quiénes somos, a qué nos dedicamos, qué ofrecemos, qué brindamos a los clientes y la sede en Carrera 50 # 25-20, Guayabal. Ese contenido es lo que Google puede mostrar.</p>
 
       <h2>1. Verificar la propiedad</h2>
       <ol>
         <li>Entre a <a href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer">search.google.com/search-console</a> con la cuenta del anunciante.</li>
-        <li>Añada una propiedad de <strong>prefijo de URL</strong> (no de dominio, porque este sitio vive en Azure Blob):<br>
-          <code data-cfg="sitioUrl">https://ovahogardistribuidora.z5.web.core.windows.net/</code></li>
+        <li>Añada una propiedad de <strong>prefijo de URL</strong> (el sitio está en Render):<br>
+          <code data-cfg="sitioUrl">https://novahogar-distribuidora.onrender.com/</code></li>
         <li>Elija el método <strong>etiqueta HTML</strong>. Google le dará un código largo.</li>
-        <li>Ábralo en <code>assets/js/config.js</code>, campo <code>googleSiteVerification</code>, péguelo y vuelva a subir el sitio a Azure <code>$web</code>.</li>
-        <li>Pulse Verificar. Si falla, espere unos minutos: Azure debe servir ya el HTML con la etiqueta.</li>
+        <li>Ábralo en <code>assets/js/config.js</code>, campo <code>googleSiteVerification</code>, péguelo y vuelva a publicar el sitio en Render.</li>
+        <li>Pulse Verificar. Si falla, espere unos minutos: Render debe servir ya el HTML con la etiqueta.</li>
       </ol>
 
       <h2>2. Enviar el mapa del sitio</h2>
       <p>En Search Console → Sitemaps, envíe exactamente:</p>
-      <p><code>https://ovahogardistribuidora.z5.web.core.windows.net/sitemap.xml</code></p>
+      <p><code>https://novahogar-distribuidora.onrender.com/sitemap.xml</code></p>
       <p>Ese archivo lista Inicio, Quiénes somos, Ubicación, Contacto, esta página y las políticas. <code>robots.txt</code> también lo declara y permite Googlebot, AdsBot y Google-InspectionTool.</p>
 
       <h2>3. Pedir la indexación</h2>
       <p>En la barra superior de Search Console use <strong>Inspección de URL</strong> y solicite indexación, en este orden:</p>
       <ul>
-        <li>https://ovahogardistribuidora.z5.web.core.windows.net/</li>
-        <li>https://ovahogardistribuidora.z5.web.core.windows.net/quienes-somos.html</li>
-        <li>https://ovahogardistribuidora.z5.web.core.windows.net/ubicacion.html</li>
-        <li>https://ovahogardistribuidora.z5.web.core.windows.net/contacto.html</li>
+        <li>https://novahogar-distribuidora.onrender.com/</li>
+        <li>https://novahogar-distribuidora.onrender.com/quienes-somos.html</li>
+        <li>https://novahogar-distribuidora.onrender.com/ubicacion.html</li>
+        <li>https://novahogar-distribuidora.onrender.com/contacto.html</li>
       </ul>
       <p>Google no indexa en el acto. Puede tardar horas o días. Las impresiones del informe Rendimiento suelen aparecer después de que haya consultas reales.</p>
 
       <h2>4. Qué verá en Rendimiento</h2>
-      <p>Cuando haya datos, el informe mostrará clics, impresiones, CTR y posición media. Las consultas naturales de esta casa son, entre otras: muebles al por mayor, distribuidora de muebles, muebles al por mayor Medellín y ovaHogar Distribuidora. No prometemos una posición: la decide el algoritmo.</p>
+      <p>Cuando haya datos, el informe mostrará clics, impresiones, CTR y posición media. Las consultas naturales de esta casa son, entre otras: muebles al por mayor, distribuidora de muebles, muebles al por mayor Medellín y NovaHogar Distribuidora. No prometemos una posición: la decide el algoritmo.</p>
 
       <h2>Por qué este sitio es apto para el rastreo</h2>
       <ul>
@@ -92,7 +92,7 @@
       </ul>
 
       <h2>Después de cada publicación</h2>
-      <p>Suba de nuevo a Azure <code>$web</code> index.html, search-console.html, sitemap.xml, robots.txt, assets/js/config.js y assets/js/main.js. Luego, en Search Console, vuelva a inspeccionar la portada. Un cambio que solo existe en su computador no entra a Google.</p>
+      <p>Vuelva a publicar en Render index.html, search-console.html, sitemap.xml, robots.txt, assets/js/config.js y assets/js/main.js. Luego, en Search Console, vuelva a inspeccionar la portada. Un cambio que solo existe en su computador no entra a Google.</p>
 
       <div class="about-actions" style="margin-top:2.5rem;">
         <a class="btn btn-primary" href="https://search.google.com/search-console" target="_blank" rel="noopener noreferrer">Abrir Search Console</a>
@@ -105,7 +105,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom">
-        <p>© <span data-cfg="anioActual">2026</span> ovaHogar Distribuidora. Sitio web desde 2013 · más de 10 años en línea. <span data-cfg="direccion">Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia</span>.</p>
+        <p>© <span data-cfg="anioActual">2026</span> NovaHogar Distribuidora. Sitio web desde 2013 · más de 10 años en línea. <span data-cfg="direccion">Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia</span>.</p>
         <p class="footer-campaign">ID de campaña: <span data-cfg="idCampana">794-225-9946</span></p>
       </div>
     </div>

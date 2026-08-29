@@ -22,4 +22,4 @@ Allow: /
 User-agent: AdsBot-Google-Mobile
 Allow: /
 
-Sitemap: https://ovahogardistribuidora.z5.web.core.windows.net/sitemap.xml
+Sitemap: https://novahogar-distribuidora.onrender.com/sitemap.xml

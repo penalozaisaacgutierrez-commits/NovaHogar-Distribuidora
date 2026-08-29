@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- *  CONFIGURACIÓN DEL SITIO — ovaHogar Distribuidora
+ *  CONFIGURACIÓN DEL SITIO — NovaHogar Distribuidora
  *
  *  Edite este archivo para actualizar todo el sitio sin tocar el HTML:
  *  nombre, rubro, dirección, WhatsApp, correo, ID de campaña, misión,
@@ -16,14 +16,14 @@
  */
 const OV_CONFIG = {
   /* ── Datos generales ── */
-  nombre: "ovaHogar Distribuidora",
-  rubro: "Ventas de muebles al mayor / ovaHogar Distribuidora",
+  nombre: "NovaHogar Distribuidora",
+  rubro: "Ventas de muebles al mayor / NovaHogar Distribuidora",
   slogan:
     "Mobiliario de alta gama al por mayor para quienes amueblan con criterio, volumen y permanencia",
   brandSub: "Mayorista · sitio web desde 2013",
-  tituloSeo: "Muebles al por mayor en Medellín | ovaHogar Distribuidora",
+  tituloSeo: "Muebles al por mayor en Medellín | NovaHogar Distribuidora",
   descripcionMeta:
-    "ovaHogar Distribuidora: muebles al por mayor en Medellín. Sitio web desde 2013 (más de 10 años). Showroom en Guayabal. Catálogo mayorista para almacenes, hoteles y diseñadores.",
+    "NovaHogar Distribuidora: muebles al por mayor en Medellín. Sitio web desde 2013 (más de 10 años). Showroom en Guayabal. Catálogo mayorista para almacenes, hoteles y diseñadores.",
 
   /* ── Contacto (complete estos marcadores) ── */
   direccion: "Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia",
@@ -41,12 +41,12 @@ const OV_CONFIG = {
 
   /* ── Titular / verificante ── */
   titularNombre: "Javier Antonio Villegas Zapata",
-  titularCargo: "Verificante institucional · ovaHogar Distribuidora",
+  titularCargo: "Verificante institucional · NovaHogar Distribuidora",
   verificanteNombre: "Javier Antonio Villegas Zapata",
 
   /* ── Sitio web ── */
-  sitioUrl: "https://ovahogardistribuidora.z5.web.core.windows.net/",
-  sitioDominio: "ovahogardistribuidora.z5.web.core.windows.net",
+  sitioUrl: "https://novahogar-distribuidora.onrender.com/",
+  sitioDominio: "novahogar-distribuidora.onrender.com",
   googleSiteVerification: "",
   mapaQuery: "Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia",
   mapsUrl:
@@ -56,7 +56,7 @@ const OV_CONFIG = {
 
   /* ── Identidad visual ── */
   logo: "assets/img/logo.svg",
-  logoAlt: "ovaHogar Distribuidora — sello institucional",
+  logoAlt: "NovaHogar Distribuidora — sello institucional",
   imagenFallback:
     "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=80&auto=format&fit=crop",
 
@@ -66,13 +66,13 @@ const OV_CONFIG = {
   anioFundacion: 2013,
 
   quienesSomos: {
-    titulo: "Qué es ovaHogar Distribuidora",
+    titulo: "Qué es NovaHogar Distribuidora",
     descripcion:
-      "ovaHogar Distribuidora es una casa mayorista de mobiliario para el hogar, la hospitalidad y el espacio de trabajo. Desde 2013 nos dedicamos a la venta de muebles al por mayor: no somos una tienda de menudeo ni un marketplace de ocasión. Somos el eslabón que conecta fábricas y talleres de calidad con almacenes, diseñadores de interiores, cadenas hoteleras, oficinas y proyectos contract que necesitan volumen, continuidad de línea y un interlocutor comercial serio. Operamos con showroom, bodega y despacho programado. El comprador profesional encuentra aquí un catálogo amplio, condiciones mayoristas claras y un trato de casa, no de mostrador improvisado.",
+      "NovaHogar Distribuidora es una casa mayorista de mobiliario para el hogar, la hospitalidad y el espacio de trabajo. Desde 2013 nos dedicamos a la venta de muebles al por mayor: no somos una tienda de menudeo ni un marketplace de ocasión. Somos el eslabón que conecta fábricas y talleres de calidad con almacenes, diseñadores de interiores, cadenas hoteleras, oficinas y proyectos contract que necesitan volumen, continuidad de línea y un interlocutor comercial serio. Operamos con showroom, bodega y despacho programado. El comprador profesional encuentra aquí un catálogo amplio, condiciones mayoristas claras y un trato de casa, no de mostrador improvisado.",
     quienes:
-      "Somos ovaHogar Distribuidora, una organización colombiana de ventas de muebles al mayor fundada en 2013. Nuestro oficio es seleccionar, exhibir y abastecer mobiliario de salas, comedores, alcobas, complementos, oficina y contract. Trabajamos con compradores institucionales: dueños de almacenes de muebles, gerentes de compras de hoteles y constructoras, estudios de arquitectura de interiores y empresas que amueblan sedes. El nombre ovaHogar resume una vocación: llevar al hogar —y a los espacios que se viven como un hogar— piezas que resisten el uso, el inventario y la mirada exigente del cliente final. No improvisamos un catálogo cada temporada: construimos líneas que el mayorista puede reponer.",
+      "Somos NovaHogar Distribuidora, una organización colombiana de ventas de muebles al mayor fundada en 2013. Nuestro oficio es seleccionar, exhibir y abastecer mobiliario de salas, comedores, alcobas, complementos, oficina y contract. Trabajamos con compradores institucionales: dueños de almacenes de muebles, gerentes de compras de hoteles y constructoras, estudios de arquitectura de interiores y empresas que amueblan sedes. El nombre NovaHogar resume una vocación: llevar al hogar —y a los espacios que se viven como un hogar— piezas que resisten el uso, el inventario y la mirada exigente del cliente final. No improvisamos un catálogo cada temporada: construimos líneas que el mayorista puede reponer.",
     trayectoria:
-      "Nuestra historia —y la de este sitio web— comienza en 2013, hace más de una década. En trece años hemos pasado de un primer depósito de salas y comedores a una operación mayorista con showroom de referencia, bodega de rotación y una red de clientes en distintas ciudades. Este sitio web tiene más de diez años en línea: no nació ayer para un anuncio. Superamos la incertidumbre de 2020 sin abandonar el oficio. Hoy, en 2026, ovaHogar Distribuidora es una casa con memoria digital e institucional.",
+      "Nuestra historia —y la de este sitio web— comienza en 2013, hace más de una década. En trece años hemos pasado de un primer depósito de salas y comedores a una operación mayorista con showroom de referencia, bodega de rotación y una red de clientes en distintas ciudades. Este sitio web tiene más de diez años en línea: no nació ayer para un anuncio. Superamos la incertidumbre de 2020 sin abandonar el oficio. Hoy, en 2026, NovaHogar Distribuidora es una casa con memoria digital e institucional.",
     dedicacion:
       "Nos dedicamos exclusivamente a la comercialización mayorista de muebles. Compramos y representamos líneas de sala, comedor, alcoba, oficina, outdoor y hospitalidad. Asesoramos al comprador profesional en mix de producto, rotación, empaque y logística de última milla hacia su punto de venta o su obra. No vendemos por unidad al consumidor final como actividad principal; nuestro cliente es quien amuebla para vender, para hospedar o para operar. Esa especialización nos permite hablar el idioma del inventario, del margen y del lead time, no el de la oferta de fin de semana.",
     servicios:
@@ -80,7 +80,7 @@ const OV_CONFIG = {
     clientes:
       "A nuestros clientes les brindamos continuidad. Un mix que se puede reponer, una cotización que se sostiene, un empaque que llega entero y un interlocutor que responde cuando el camión se retrasa. El propósito es simple y exigente: que el almacén, el hotel o el diseñador dejen de cazar ofertas sueltas y empiecen a trabajar con una casa mayorista de confianza.",
     pilarSomos:
-      "Somos ovaHogar Distribuidora, una casa colombiana de ventas de muebles al mayor fundada en 2013. Seleccionamos, exhibimos y abastecemos mobiliario de hogar, oficina y contract para almacenes, hoteles y diseñadores. No somos tienda de menudeo ni marketplace de ocasión.",
+      "Somos NovaHogar Distribuidora, una casa colombiana de ventas de muebles al mayor fundada en 2013. Seleccionamos, exhibimos y abastecemos mobiliario de hogar, oficina y contract para almacenes, hoteles y diseñadores. No somos tienda de menudeo ni marketplace de ocasión.",
     pilarDedicacion:
       "Nos dedicamos exclusivamente a la comercialización mayorista de muebles: salas, comedores, alcobas, oficina, outdoor y hospitalidad. Asesoramos mix de producto, rotación, empaque y logística hacia el punto de venta o la obra. Nuestro cliente es quien amuebla para vender, hospedar u operar.",
     pilarOfrecemos:
@@ -90,21 +90,21 @@ const OV_CONFIG = {
     misionBreve:
       "Abastecer con criterio, volumen y permanencia a quienes amueblan el país: almacenes, hoteles, oficinas y proyectos que no pueden permitirse un proveedor improvisado.",
     sitioWebDesde:
-      "Este sitio web institucional de ovaHogar Distribuidora está en operación desde 2013: más de diez años de presencia digital continua. No es una página improvisada para una campaña. Es el canal público de una casa mayorista que lleva trece años (2013–2026) informando quiénes somos, a qué nos dedicamos, qué ofrecemos y qué brindamos a nuestros clientes.",
+      "Este sitio web institucional de NovaHogar Distribuidora está en operación desde 2013: más de diez años de presencia digital continua. No es una página improvisada para una campaña. Es el canal público de una casa mayorista que lleva trece años (2013–2026) informando quiénes somos, a qué nos dedicamos, qué ofrecemos y qué brindamos a nuestros clientes.",
     ubicacionLarga:
-      "ovaHogar Distribuidora opera desde su sede comercial y de bodega en Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia. Allí se concentran el showroom de referencia, la zona de picking y la oficina comercial. Recibimos compradores profesionales con cita previa en el horario publicado. El acceso está pensado para visita de catálogo, toma de medidas de exhibición y coordinación de despachos; no es un local de menudeo de paso. Si necesita indicaciones, escríbanos al correo josegon3547@gmail.com o al WhatsApp NÚMERO CON INDICATIVO. El mapa de Google de esta página y de la sección «Dónde estamos» apunta a esa dirección en Medellín.",
+      "NovaHogar Distribuidora opera desde su sede comercial y de bodega en Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia. Allí se concentran el showroom de referencia, la zona de picking y la oficina comercial. Recibimos compradores profesionales con cita previa en el horario publicado. El acceso está pensado para visita de catálogo, toma de medidas de exhibición y coordinación de despachos; no es un local de menudeo de paso. Si necesita indicaciones, escríbanos al correo josegon3547@gmail.com o al WhatsApp NÚMERO CON INDICATIVO. El mapa de Google de esta página y de la sección «Dónde estamos» apunta a esa dirección en Medellín.",
   },
 
   mision:
     "Proveer a almacenes, diseñadores, hoteles y empresas de Colombia un canal mayorista de mobiliario de alto nivel: selección rigurosa, condiciones claras, reposición fiable y un trato institucional. Existimos para que el comprador profesional disponga de un catálogo que se puede vender, de un interlocutor que conoce lead times y de una casa que no desaparece al cierre de una temporada. Servimos con excelencia comercial, sin teatralidad de outlet y sin atajos que pongan en riesgo la reputación del cliente frente a su propio público.",
 
   vision:
-    "Ser, en Colombia, la distribuidora de referencia en ventas de muebles al mayor: la casa a la que acuden gerentes de compras, dueños de almacén y estudios de interiores cuando necesitan volumen, continuidad de línea y un estándar visual de alta gama. Aspiramos a que ovaHogar Distribuidora sea sinónimo de catálogo serio, logística cumplida y relaciones comerciales que duran más de una década —como ya dura la nuestra, fundada en 2013.",
+    "Ser, en Colombia, la distribuidora de referencia en ventas de muebles al mayor: la casa a la que acuden gerentes de compras, dueños de almacén y estudios de interiores cuando necesitan volumen, continuidad de línea y un estándar visual de alta gama. Aspiramos a que NovaHogar Distribuidora sea sinónimo de catálogo serio, logística cumplida y relaciones comerciales que duran más de una década —como ya dura la nuestra, fundada en 2013.",
 
   historia: [
     {
       anio: "2013",
-      titulo: "Nace ovaHogar Distribuidora",
+      titulo: "Nace NovaHogar Distribuidora",
       texto:
         "Se constituye la casa y se publica este sitio web institucional. El canal mayorista de muebles en Colombia merecía un interlocutor de catálogo, no un intermediario de ocasión. Abrimos el primer depósito con salas, comedores y alcobas para almacenes que necesitaban reposición real. Desde entonces, este sitio informa quiénes somos, a qué nos dedicamos, qué ofrecemos y qué brindamos a nuestros clientes.",
       imagen:
@@ -114,7 +114,7 @@ const OV_CONFIG = {
       anio: "2014",
       titulo: "Primeras cuentas de almacén",
       texto:
-        "Cerramos las primeras relaciones permanentes con retailers de hogar. El modelo —visita a piso, mix acordado, reposición mensual— se convierte en sello de ovaHogar. Dejamos de vender «lo que hay» y empezamos a construir inventario con criterio.",
+        "Cerramos las primeras relaciones permanentes con retailers de hogar. El modelo —visita a piso, mix acordado, reposición mensual— se convierte en sello de NovaHogar. Dejamos de vender «lo que hay» y empezamos a construir inventario con criterio.",
       imagen:
         "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80&auto=format&fit=crop",
     },
@@ -130,7 +130,7 @@ const OV_CONFIG = {
       anio: "2016",
       titulo: "Línea de oficina y contract",
       texto:
-        "Incorporamos mobiliario de oficina y primeras cotizaciones para proyectos corporativos. ovaHogar deja de ser solo «hogar» y empieza a amueblar el trabajo con la misma exigencia de terminados.",
+        "Incorporamos mobiliario de oficina y primeras cotizaciones para proyectos corporativos. NovaHogar deja de ser solo «hogar» y empieza a amueblar el trabajo con la misma exigencia de terminados.",
       imagen:
         "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80&auto=format&fit=crop",
     },
@@ -170,7 +170,7 @@ const OV_CONFIG = {
       anio: "2021",
       titulo: "Reapertura y reposición",
       texto:
-        "El canal hogar volvió con fuerza. Reforzamos líneas de sala y comedor, aceleramos reposición y profesionalizamos el seguimiento comercial. ovaHogar demuestra que una casa de trece años —entonces de ocho— se mide en crisis, no en catálogos.",
+        "El canal hogar volvió con fuerza. Reforzamos líneas de sala y comedor, aceleramos reposición y profesionalizamos el seguimiento comercial. NovaHogar demuestra que una casa de trece años —entonces de ocho— se mide en crisis, no en catálogos.",
       imagen:
         "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80&auto=format&fit=crop",
     },
@@ -210,7 +210,7 @@ const OV_CONFIG = {
       anio: "2026",
       titulo: "Casa consolidada, trece años",
       texto:
-        "Hoy operamos con un catálogo maduro de hogar, oficina, hospitalidad y outdoor. El ID de campaña 794-225-9946 identifica nuestro canal institucional de contacto con nuevos compradores profesionales. Trece años no son un adorno: son la prueba de que ovaHogar Distribuidora permanece.",
+        "Hoy operamos con un catálogo maduro de hogar, oficina, hospitalidad y outdoor. El ID de campaña 794-225-9946 identifica nuestro canal institucional de contacto con nuevos compradores profesionales. Trece años no son un adorno: son la prueba de que NovaHogar Distribuidora permanece.",
       imagen:
         "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80&auto=format&fit=crop",
     },
@@ -369,19 +369,19 @@ const OV_CONFIG = {
   testimonios: [
     {
       texto:
-        "Llevamos años reponiendo salas y comedores con ovaHogar. Lo determinante no es una foto bonita: es que la referencia sigue existiendo el trimestre siguiente y que el empaque llega sin golpes. Eso, en menudeo, es oro.",
+        "Llevamos años reponiendo salas y comedores con NovaHogar. Lo determinante no es una foto bonita: es que la referencia sigue existiendo el trimestre siguiente y que el empaque llega sin golpes. Eso, en menudeo, es oro.",
       autor: "Ricardo Morales",
       cargo: "Gerente, Almacenes del Hogar del Espinal",
     },
     {
       texto:
-        "Para un hotel, un proveedor que improvisa fechas destruye la apertura. ovaHogar entendió el calendario de obra, las telas de alto tráfico y la entrega por piso. Volveremos a cotizar con ellos el siguiente bloque de habitaciones.",
+        "Para un hotel, un proveedor que improvisa fechas destruye la apertura. NovaHogar entendió el calendario de obra, las telas de alto tráfico y la entrega por piso. Volveremos a cotizar con ellos el siguiente bloque de habitaciones.",
       autor: "Elena Duarte",
       cargo: "Directora de compras, Grupo Hotelero Café y Tierra",
     },
     {
       texto:
-        "Como estudio de interiores necesitábamos un mayorista que hablara de muestras y de plazos, no de liquidaciones. El showroom nos ahorró viajes inútiles. Recomiendo ovaHogar a cualquier diseñador que amueble en volumen.",
+        "Como estudio de interiores necesitábamos un mayorista que hablara de muestras y de plazos, no de liquidaciones. El showroom nos ahorró viajes inútiles. Recomiendo NovaHogar a cualquier diseñador que amueble en volumen.",
       autor: "Julián Herrera",
       cargo: "Director, Estudio Herrera Interiores",
     },
@@ -395,14 +395,14 @@ const OV_CONFIG = {
 
   faq: [
     {
-      pregunta: "¿ovaHogar Distribuidora vende al detal o solo al por mayor?",
+      pregunta: "¿NovaHogar Distribuidora vende al detal o solo al por mayor?",
       respuesta:
         "Somos una distribuidora de ventas de muebles al mayor. Nuestro cliente típico es un almacén, un hotel, una empresa o un estudio de interiores que compra por volumen. No operamos como tienda de menudeo de paso. Si su consulta es institucional, con gusto la atendemos.",
     },
     {
       pregunta: "¿Quiénes son y a qué se dedican?",
       respuesta:
-        "ovaHogar Distribuidora es una casa colombiana fundada en 2013, dedicada a la comercialización mayorista de mobiliario de hogar, oficina, hospitalidad y outdoor. Seleccionamos, exhibimos y despachamos líneas que el comprador profesional puede reponer. No somos un marketplace de ocasión ni un fabricante anónimo.",
+        "NovaHogar Distribuidora es una casa colombiana fundada en 2013, dedicada a la comercialización mayorista de mobiliario de hogar, oficina, hospitalidad y outdoor. Seleccionamos, exhibimos y despachamos líneas que el comprador profesional puede reponer. No somos un marketplace de ocasión ni un fabricante anónimo.",
     },
     {
       pregunta: "¿Desde cuándo existe la empresa y este sitio web?",
@@ -464,7 +464,7 @@ const OV_CONFIG = {
   heroImagenes: [
     {
       url: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1920&q=85&auto=format&fit=crop",
-      alt: "Sala de alta gama en showroom ovaHogar Distribuidora",
+      alt: "Sala de alta gama en showroom NovaHogar Distribuidora",
     },
     {
       url: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=85&auto=format&fit=crop",

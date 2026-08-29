@@ -1,5 +1,5 @@
 /**
- * GOOGLE ADS — ovaHogar Distribuidora
+ * GOOGLE ADS — NovaHogar Distribuidora
  * Material para campañas de BÚSQUEDA. Titulares RSA máx. 30 caracteres.
  * Descripciones RSA máx. 90 caracteres.
  *
@@ -7,25 +7,25 @@
  * al por mayor. No prometemos precios milagro ni fingimos ser menudeo.
  */
 const OV_GOOGLE_ADS = {
-  urlFinal: "https://ovahogardistribuidora.z5.web.core.windows.net/",
-  urlVisualizacion: "ovahogardistribuidora.z5.web.core.windows.net",
+  urlFinal: "https://novahogar-distribuidora.onrender.com/",
+  urlVisualizacion: "novahogar-distribuidora.onrender.com",
   regionCampana: "Campaña de búsqueda",
 
   anunciante: {
-    nombreComercial: "ovaHogar Distribuidora",
+    nombreComercial: "NovaHogar Distribuidora",
     verificante: "Javier Antonio Villegas Zapata",
     cargoVerificante: "Verificante institucional",
     direccion: "Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia",
     email: "josegon3547@gmail.com",
     telefono: "NÚMERO CON INDICATIVO",
     idCampana: "794-225-9946",
-    urlFinal: "https://ovahogardistribuidora.z5.web.core.windows.net/",
+    urlFinal: "https://novahogar-distribuidora.onrender.com/",
   },
 
   palabrasClaveCampana: [
     "muebles al por mayor",
     "distribuidora de muebles",
-    "ovaHogar Distribuidora",
+    "NovaHogar Distribuidora",
     "muebles mayoristas",
     "catálogo de muebles mayorista",
     "showroom de muebles",
@@ -45,7 +45,7 @@ const OV_GOOGLE_ADS = {
     "[venta de muebles al mayor]",
     "[distribuidora de muebles]",
     "[distribuidora mayorista de muebles]",
-    "[ovaHogar Distribuidora]",
+    "[NovaHogar Distribuidora]",
     "[muebles mayoristas]",
     "[mayorista de muebles]",
     "[proveedor de muebles]",
@@ -72,7 +72,7 @@ const OV_GOOGLE_ADS = {
   palabrasClaveConcordancia: [
     '"muebles al por mayor"',
     '"distribuidora de muebles"',
-    '"ovaHogar Distribuidora"',
+    '"NovaHogar Distribuidora"',
     '"muebles mayoristas"',
     '"catálogo de muebles mayorista"',
     '"showroom de muebles"',
@@ -100,7 +100,7 @@ const OV_GOOGLE_ADS = {
   ],
 
   titulares: [
-    { texto: "ovaHogar Distribuidora" },
+    { texto: "NovaHogar Distribuidora" },
     { texto: "Muebles al por mayor" },
     { texto: "Distribuidora de muebles" },
     { texto: "Catálogo mayorista" },
@@ -159,10 +159,10 @@ const OV_GOOGLE_ADS = {
 
   checklistPoliticas: [
     "Los anuncios describen únicamente ventas de muebles al por mayor, igual que el sitio.",
-    "URL final: https://ovahogardistribuidora.z5.web.core.windows.net/",
+    "URL final: https://novahogar-distribuidora.onrender.com/",
     "El sitio declara con claridad el nombre comercial, el rubro, la dirección, el correo y el WhatsApp.",
     "No hay promesas de precios milagro, regalos engañosos ni fingir venta al detal.",
-    "Identidad verificable: ovaHogar Distribuidora, Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia.",
+    "Identidad verificable: NovaHogar Distribuidora, Carrera 50 # 25-20, Guayabal, Medellín, Antioquia, Colombia.",
     "Verificante institucional: Javier Antonio Villegas Zapata.",
     "Contacto visible: correo josegon3547@gmail.com, celular/WhatsApp, dirección, horario e ID de campaña 794-225-9946.",
     "Políticas publicadas: Términos, Privacidad, Cookies y Políticas de Google Ads, con consentimiento en el formulario.",

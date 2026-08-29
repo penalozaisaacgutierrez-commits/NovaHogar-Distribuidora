@@ -1,5 +1,5 @@
 /**
- * ovaHogar Distribuidora — JavaScript principal
+ * NovaHogar Distribuidora — JavaScript principal
  * Requiere config.js (OV_CONFIG) cargado previamente.
  */
 (function () {
@@ -64,7 +64,7 @@
   }
 
   function siteOrigin() {
-    return String(cfg.sitioUrl || "https://ovahogardistribuidora.z5.web.core.windows.net/").replace(
+    return String(cfg.sitioUrl || "https://novahogar-distribuidora.onrender.com/").replace(
       /\/?$/,
       "/"
     );
@@ -932,7 +932,7 @@
       var servicio = (form.querySelector('[name="servicio"]') || {}).value || "";
 
       var composed =
-        "Consulta desde el sitio web de ovaHogar Distribuidora\n" +
+        "Consulta desde el sitio web de NovaHogar Distribuidora\n" +
         "ID de campaña: " +
         (cfg.idCampana || "") +
         "\nNombre: " +
